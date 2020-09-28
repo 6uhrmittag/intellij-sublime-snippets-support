@@ -30,6 +30,7 @@ enum class SublimeSnippetScope(private val scopeName: String, private val contex
     SOURCE_TSX("source.tsx", "TypeScript"),
     SOURCE_LUA("source.lua", "LUA"),
     SOURCE_PUPPET("source.puppet", "PUPPET_FILE"),
+    SOURCE_OTHER("source.other", "OTHER"),
     TEXT_HTML("text.html", "HTML_TEXT"),
     TEXT_HTML_BASIC("text.html.basic", "HTML_TEXT"),
     TEXT_HTML_JAVADOC("text.html.javadoc", "HTML_TEXT"),
